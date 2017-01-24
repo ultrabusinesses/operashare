@@ -1,0 +1,18 @@
+OperaCoin version v1.6.0.0 (2016-09-09 01:06:56 +0530)
+Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+Startup time: 10/16/16 05:02:21
+Default data directory /home/arjun/.OperaCoin
+Used data directory /home/arjun/.OperaCoin
+dbenv.open LogDir=/home/arjun/.OperaCoin/database ErrorFile=/home/arjun/.OperaCoin/db.log
+Bound to [::]:12673
+Bound to 0.0.0.0:12673
+Loading block index...
+CBlock(hash=b952687a3507451673f5c7f5bc05efb83f8d0dc237e052494cc116b047c5fcb8, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=ff6f690d01b271025d8cff63ac24b574b82ec4713abae16f7c8121c8a296501a, nTime=1473343982, nBits=1e0fffff, nNonce=13577531, vtx=1, vchBlockSig=)
+  Coinbase(hash=ff6f690d01, nTime=1473351588, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d020f273153657074656d62657220392c20323031362c2041726a756e204d6973687261206275696c6473206f70657261636f696e2e)
+    CTxOut(empty)
+  vMerkleTree: ff6f690d01 
+block.GetHash() == b952687a3507451673f5c7f5bc05efb83f8d0dc237e052494cc116b047c5fcb8
+block.hashMerkleRoot == ff6f690d01b271025d8cff63ac24b574b82ec4713abae16f7c8121c8a296501a
+block.nTime = 1473343982 
+block.nNonce = 13577531 
